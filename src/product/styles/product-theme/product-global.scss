@@ -1,0 +1,39 @@
+
+body {background: #EEE;}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    .product-name {
+        h1 {
+            font-size: 4em;
+            text-align: center;
+            margin: 50px 0;
+        }
+    }
+}
+
+.product-image {
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    min-height: auto;
+}
+
+// Media query
+@media only screen and (max-width: 930px) {
+    .product-name {
+        h1 {
+            font-size: 1.5em !important;
+            margin: 10px 0 !important;
+            line-height: 22px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+// Product Form
+.product-order {
+	margin-bottom: 20px;
+	
+	.product-price {
+		font-size: 40px;
+		margin-bottom: 3px;
+	}
+
+	.ch-price {
+		span {
+			color: #900;
+			font-size: 40px;
+			font-weight: 700
+		}
+		sup {
+			font-size: 15px;
+		}
+	}
+	
+	.extra-info {
+		margin-top: 5px;
+		font-style: italic;
+		font-size: 12px;
+	}
+
+
+	select {
+		height: 30px;
+		width: 45px;
+		border: 1px solid $product-light-gray;
+	}
+
+}
